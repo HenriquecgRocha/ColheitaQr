@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Diário de Visitas
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-content>
+
+    <ion-item-groupider color="laranja">Agendadas</ion-item-divider>
+      <ion-item *ng>
+      <ion-item-divFor="let visitas of diario">{{ visitas.instituicao.nome }}</ion-item>
+    </ion-item-group>
+
+    <ion-item-group>
+        <ion-item-divider color="laranja">Realizadas</ion-item-divider>
+        <ion-item></ion-item>
+    </ion-item-group>
+
+  </ion-content>
+
+
+
+</ion-content>
